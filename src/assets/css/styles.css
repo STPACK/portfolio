@@ -1,3 +1,4 @@
+/*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 /*===== VARIABLES CSS =====*/
@@ -94,40 +95,61 @@ img{
   display: block;
 }
 
-.bd-container{
-  max-width: 1024px;
-  width: calc(100% - 2rem);
-  margin: 0 var(--mb-2);
-}
+/*===== CLASS CSS =====*/
 
-.bd-grid{
-display: grid;
-gap: 1.5rem;
-}
 
-.button{
-  display: inline-block;
-  background-color: var(--first-color);
-  color: var(--first-color-lighten);
-  padding: .75rem 1rem;
-  border-radius: .25rem;
-  transition: .3s;
-}
+/*===== LAYOUT =====*/
 
-.section{
-    padding: 4rem 0 3 rem;
-}
 
-.section-title,.section-subtitle{
-    text-align: center;
-}
-.section-title{
-    font-size: var(--h1-font-size);
-    color: var(--first-color);
-    margin-bottom: var(--mb-3);
-}
-.section-subtitle{
-    display: block;
-    font-size: var(--smaller-font-size);
-    font-weight: var(--font-semi-bold);
-}
+/*===== NAV =====*/
+
+
+/* Show menu */
+
+
+/* Active menu */
+
+
+/* Change background header */
+
+
+/*===== SCROLL TOP =====*/
+
+
+/* Show scroll top */
+
+
+/*===== HOME =====*/
+
+
+/*BUTTONS*/
+
+
+/*===== ABOUT =====*/
+
+
+/*===== QUALIFICATION =====*/
+
+
+/*===== SERVICES =====*/
+
+
+/*===== PROJECT IN MIND =====*/
+
+
+/*===== PORTFOLIO =====*/
+
+
+/* Active menu portfolio*/
+
+
+/*===== TESTIMONIAL =====*/
+
+
+/*===== CONTACTME =====*/
+
+
+/*===== FOOTER =====*/
+
+
+/*===== MEDIA QUERIES =====*/
