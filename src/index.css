@@ -115,7 +115,7 @@ gap: 1.5rem;
 }
 
 .section{
-    padding: 4rem 0 3 rem;
+    padding: 4rem 0 3rem;
 }
 
 .section-title,.section-subtitle{
@@ -131,3 +131,25 @@ gap: 1.5rem;
     font-size: var(--smaller-font-size);
     font-weight: var(--font-semi-bold);
 }
+
+@media (min-width:768px) {
+  body{
+    margin: 0;
+  }
+  .section{
+    padding-top: 6rem;
+  }
+  .section-title{
+    margin-bottom: var(--mb-5);
+  }
+}
+
+
+
+@media (min-width:1024px) {
+ .bd-container{
+   margin: 0 auto;
+ }
+}
+
+

@@ -6,7 +6,7 @@ import "./project.css";
 const Project = () => {
   return (
     <>
-      <section className="project section bd-container">
+      <section className="project section bd-container"  id="project">
         <div className="project__container bd-grid">
           <div className="project__data">
             <i className="bx bx-chat project__icon"></i>
@@ -38,19 +38,19 @@ const Project = () => {
           <div className="portfolio__container bd-grid">
 
               <div className="portfolio__content">
-                  <Link to="#"><img src={imgWork1} alt="" className="portfolio__img" /></Link>
+                  <Link to="/"><img src={imgWork1} alt="" className="portfolio__img" /></Link>
                   <div className="portfolio__data">
                       <span className="portfolio__subtitle">Web development</span>
-                      <Link to="#"><h2 className="portfolio__title">New portfolio of work done for client</h2></Link>
-                      <Link to="#" className="button button-link">View Detail</Link>
+                      <Link to="/"><h2 className="portfolio__title">New portfolio of work done for client</h2></Link>
+                      <Link to="/" className="button button-link">View Detail</Link>
                   </div>
               </div>
               <div className="portfolio__content">
-                  <Link to="#"><img src={imgWork2} alt="" className="portfolio__img" /></Link>
+                  <Link to="/"><img src={imgWork2} alt="" className="portfolio__img" /></Link>
                   <div className="portfolio__data">
                       <span className="portfolio__subtitle">Twitter Clone</span>
-                      <Link to="#"><h2 className="portfolio__title">New portfolio of work done for client</h2></Link>
-                      <Link to="#" className="button button-link">View Detail</Link>
+                      <Link to="/"><h2 className="portfolio__title">New portfolio of work done for client</h2></Link>
+                      <Link to="/" className="button button-link">View Detail</Link>
                   </div>
               </div>
 

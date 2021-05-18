@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import {Link} from 'react-scroll';
 import './navbar.css'
 
 const Navbar = () => {
@@ -11,13 +11,13 @@ const Navbar = () => {
   return (
     <header className="l-header" id="header">
       <nav className="nav bd-container">
-        <Link to="/" className="nav__logo">STPACK</Link>
+        <a href="/" className="nav__logo">STPACK</a>
         <div className={`nav__menu ${showMenu?'show-menu':''}`} >
           <ul className="nav__list">
-            <li className="nav__item"> <NavLink className="nav__link" to="/" exact activeClassName="active-link" onClick={showMenuHandler}>Home</NavLink> </li>
-            <li className="nav__item"> <NavLink className="nav__link" to="/about" activeClassName="active-link"  onClick={showMenuHandler} >About</NavLink> </li>
-            <li className="nav__item"> <NavLink className="nav__link" to="/project" activeClassName="active-link" onClick={showMenuHandler} >Project</NavLink> </li>
-            <li className="nav__item"> <NavLink className="nav__link" to="/contact" activeClassName="active-link" onClick={showMenuHandler} >Contact</NavLink> </li>
+            <li className="nav__item"> <Link className="nav__link" to="home" exact activeClass="active-link" onClick={showMenuHandler}>Home</Link> </li>
+            <li className="nav__item"> <Link className="nav__link" to="about" activeClass="active-link"  onClick={showMenuHandler} >About</Link> </li>
+            <li className="nav__item"> <Link className="nav__link" to="project" activeClass="active-link" onClick={showMenuHandler} >Project</Link> </li>
+            <li className="nav__item"> <Link className="nav__link" to="contact" activeClass="active-link" onClick={showMenuHandler} >Contact</Link> </li>
           </ul>
         </div>
         <div className="nav__toggle">

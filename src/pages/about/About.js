@@ -6,7 +6,7 @@ import "./about.css";
 const About = () => {
   return (
     <>
-      <section className="about section bd-container">
+      <section className="about section bd-container"  id="about">
         <span className="section-subtitle">My history</span>
         <h2 className="section-title">About me</h2>
         <div className="about__container bd-grid">
@@ -31,15 +31,16 @@ const About = () => {
               <span className="about__number">07</span>
               <span className="about__achievement">Best work awards</span>
             </div>
-            <img src={imgAbout} alt="" className="about__img" />
           </div>
+            <img src={imgAbout} alt="" className="about__img" />
         </div>
       </section>
 
       <section className="qualification section bd-container">
         <span className="section-subtitle">Experience and Education</span>
         <h2 className="section-title">Qualification</h2>
-        <div className="qualification__content bd-grid">
+        <div className="qualification__container bd-grid">
+          
           <div className="qualification__content">
             <h2 className="qualification__title">
               <i className="bx bx-briefcase-alt qualification__title-icon "></i>
@@ -76,6 +77,7 @@ const About = () => {
               </div>
             </div>
           </div>
+
           <div className="qualification__content">
             <h2 className="qualification__title">
               <i className="bx bx-bookmark qualification__title-icon "></i>
