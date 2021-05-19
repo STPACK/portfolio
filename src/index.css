@@ -5,11 +5,13 @@
   --header-height: 3rem;
 
   /*===== Colors =====*/
-  --first-color: #3E0E12;
-  --first-color-dark: #2F0A0D;
-  --text-color: #524748;
-  --first-color-light: #7B6F71;
-  --first-color-lighten: #FBF9F9;
+  --first-color: #023e8a;
+  --first-color-dark: #020413;
+  --text-color: #0e132f;
+  --first-color-light: #5d737e;
+  --first-color-lighten: #eff1f3;
+  --second-color:#dc9518;
+  --second-color-light:#F9E7C8;
 
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;

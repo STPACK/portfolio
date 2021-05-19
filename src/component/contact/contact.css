@@ -9,6 +9,7 @@
     border-radius: .5rem;
     padding: 1.5rem;
     text-align: center;
+    transition: 0.4s;
     box-shadow: 0 4px 6px rgba(174, 190, 205, .3);
 }
 .contact__icon, .contact__title{
@@ -28,6 +29,7 @@
 }
 .contact__box:hover{
     box-shadow: 0 6px 8px rgba(174, 190, 205, .3);
+    transform: translateY(-0.5rem);
 }
 
 @media  (min-width:576px) {

@@ -1,6 +1,7 @@
 .home {
-  background-color: #000;
+  background-color: #03071E;
   overflow: hidden;
+  
 }
 
 .home__container {
@@ -34,10 +35,12 @@
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 30px ;
+  
 }
 .home__img img {
   width: 240px;
+  border-radius: 50%;
 }
 .home__social {
   display: flex;
@@ -45,12 +48,12 @@
 }
 .home__social-icon {
   width: max-content;
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin-bottom: var(--mb-2);
   color: var(--first-color-lighten);
 }
 .home__social-icon:hover {
-  color: var(--first-color-light);
+  color: var(--second-color-light);
 }
 
 .button {
@@ -62,15 +65,15 @@
   transition: 0.3s;
 }
 .button-light {
-  background-color: var(--first-color-light);
+  background-color: var(--second-color);
 }
-.button:hover {
+.button-light:hover {
   background-color: var(--first-color-dark);
 }
 
 @media (min-width: 576px) {
   .home__img img {
-    width: 330px;
+    width: 300px;
   }
 }
 
@@ -95,6 +98,6 @@
     margin-bottom: 0;
   }
   .home__img img {
-    width: 440px;
+    width: 400px;
   }
 }

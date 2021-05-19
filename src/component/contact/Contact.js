@@ -1,12 +1,11 @@
 import React from "react";
-import {Link} from 'react-router-dom';
 import './contact.css'
 
 const Contact = () => {
   return (
     <>
       <section className="contact section bd-container"  id="contact">
-        <span className="section-subtitle">For project</span>
+        <span className="section-subtitle">For work</span>
         <h2 className="section-title">Contact Me</h2>
 
         <div className="contact__container bd-grid">
@@ -15,7 +14,7 @@ const Contact = () => {
             <div className="contact__box">
               <i className="bx bx-home-alt contact__icon"></i>
               <h3 className="contact__title">Location</h3>
-              <span className="contact__description">bangboutong nonthaburi</span>
+              <span className="contact__description">Nonthaburi Thailand</span>
             </div>
           
 
@@ -39,8 +38,8 @@ const Contact = () => {
               <i className="bx bx-chat contact__icon"></i>
               <h3 className="contact__title">Chat</h3>
               <div>
-                  <Link to="/" className="contact__social"><i className='bx bxl-facebook-square ' ></i></Link>
-                  <Link to="/" className="contact__social"><i className='bx bxl-instagram ' ></i></Link>
+                  <a href="/" className="contact__social"><i className='bx bxl-facebook-square ' ></i></a>
+                  <a href="/" className="contact__social"><i className='bx bxl-instagram ' ></i></a>
               </div>
             </div>
   
