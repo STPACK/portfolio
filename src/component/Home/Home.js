@@ -5,6 +5,9 @@ import cv from "../../assets/pdf/Clay-Doe-Cv.pdf";
 import "./home.css";
 
 const Home = () => {
+  const fb="https://web.facebook.com/papipack"
+  const ig="https://www.instagram.com/paxcz/"
+  const git="https://github.com/STPACK"
   let images = useRef(null);
   let content = useRef(null);
   let social = useRef(null);
@@ -59,13 +62,13 @@ const Home = () => {
             </a>
           </div>
           <div className="home__social" ref={(el) => (social = el)}>
-            <a href="/" className="home__social-icon" target="_blank">
+            <a href={fb} className="home__social-icon" target="_blank" rel="noreferrer">
               <i className="bx bxl-facebook-square"></i>
             </a>
-            <a href="/" className="home__social-icon" target="_blank">
+            <a href={ig} className="home__social-icon" target="_blank" rel="noreferrer">
               <i className="bx bxl-instagram"></i>
             </a>
-            <a href="/" className="home__social-icon" target="_blank">
+            <a href={git} className="home__social-icon" target="_blank" rel="noreferrer">
               <i className="bx bxl-github"></i>
             </a>
           </div>

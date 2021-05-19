@@ -15,12 +15,12 @@
     margin-bottom: var(--mb-3);
 }
 .footer__social{
-    margin-bottom: var(--mb-6);
+    margin-bottom: var(--mb-3);
 }
 .footer__link{
-    font-size: 1.4rem;
+    font-size: 2rem;
     color: var(--first-color-lighten);
-    margin: 0 var(--mb-1);
+    margin: 0 var(--mb-2);
     transition: .3s;
 }
 

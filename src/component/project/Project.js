@@ -29,6 +29,7 @@ const Project = () => {
         <span className="section-subtitle">My recent works</span>
         <h2 className="section-title">Project</h2>
         <div className="portfolio__container bd-grid">
+
           <div className="portfolio__content">
             <a href={webStore} target="_blank" rel="noreferrer">
               <img src={imgWork1} alt="" className="portfolio__img" />
@@ -39,14 +40,17 @@ const Project = () => {
                 authentication and store the data with
                 firebase-realtime-database <br />
               </span>
-              <a href={webStore} target="_blank" rel="noreferrer">
-                <h2 className="portfolio__title ">Web Shopping Store </h2>
-              </a>
-              <a href={webStore} target="_blank" rel="noreferrer" className="button button-link">
-                View Detail
-              </a>
+           
+                <a href={webStore} target="_blank" rel="noreferrer">
+                  <h2 className="portfolio__title ">Web Shopping Store </h2>
+                </a>
+                <a href={webStore} target="_blank" rel="noreferrer" className="button button-link">
+                  View Detail
+                </a>
+              
             </div>
           </div>
+
           <div className="portfolio__content">
             <a href={twitterClone} target="_blank" rel="noreferrer">
               <img src={imgWork2} alt="" className="portfolio__img" />

@@ -1,5 +1,5 @@
 .project__container {
-  padding: 1.3rem;
+  padding: 1rem;
   background-color: #03071E;
   color: var(--first-color-lighten);
   border-radius: 0.5rem;
@@ -60,12 +60,14 @@
   transition: 0.4s;
 }
 .portfolio__data {
+  
   padding: 1.5rem;
 }
 .portfolio__subtitle {
   font-size: var(--small-font-size);
   color: var(--first-color-light);
 }
+
 .portfolio__title {
   font-size: var(--h3-font-size);
   color: var(--first-color);
@@ -91,7 +93,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
   .project__container{
-      padding: 4.5rem 0;
+      padding: 2rem 0;
   }
   .project__data{
       display: flex;

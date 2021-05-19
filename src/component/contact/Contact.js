@@ -2,6 +2,8 @@ import React from "react";
 import './contact.css'
 
 const Contact = () => {
+  const fb="https://web.facebook.com/papipack"
+  const ig="https://www.instagram.com/paxcz/"
   return (
     <>
       <section className="contact section bd-container"  id="contact">
@@ -38,8 +40,8 @@ const Contact = () => {
               <i className="bx bx-chat contact__icon"></i>
               <h3 className="contact__title">Chat</h3>
               <div>
-                  <a href="/" className="contact__social"><i className='bx bxl-facebook-square ' ></i></a>
-                  <a href="/" className="contact__social"><i className='bx bxl-instagram ' ></i></a>
+                  <a href={fb} className="contact__social" target="_blank" rel="noreferrer"><i className='bx bxl-facebook-square contact__social-icon ' ></i></a>
+                  <a href={ig} className="contact__social" target="_blank" rel="noreferrer"><i className='bx bxl-instagram contact__social-icon' ></i></a>
               </div>
             </div>
   
