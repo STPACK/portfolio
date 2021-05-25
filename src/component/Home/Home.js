@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from "react";
-import { TimelineLite, Power3 } from "gsap";
+import { TimelineLite, Power3,gsap  } from "gsap";
+import { CSSPlugin } from 'gsap/CSSPlugin'
 import ImgHome from "../../assets/img/home4.jpg";
 import cv from "../../assets/pdf/Clay-Doe-Cv.pdf";
 import "./home.css";
@@ -14,28 +15,19 @@ const Home = () => {
   
 
   useEffect(() => {
+    gsap.registerPlugin(CSSPlugin)
     let tl = new TimelineLite();
     const headlineFirst = content.children[0];
     const headlineSecond = headlineFirst.nextSibling;
     const headlineThird = headlineSecond.nextSibling;
     const button = headlineThird.nextSibling;
 
-    tl.from(images, { opacity: 0, duration: 1, delay: 0.2, x: 60 }).from(
-      content,
-      { opacity: 0, duration: 0.5, y: 22, ease: Power3.easeOut },
-      0.8
-    );
+    tl.from(images, {  duration: 1,opacity: 0, x: 60, delay: 0.2, })
+    .from(content, { opacity: 0, duration: 0.5, y: 22, ease: Power3.easeOut },0.8);
 
-    tl.from(
-      [headlineFirst, headlineSecond, headlineThird],
-      { opacity: 0, duration: 1, y: 22, ease: Power3.easeOut, stagger: 0.2 },
-      1
-    )
-      .from(
-        button,
-        { opacity: 0, duration: 0.8, y: 22, ease: Power3.easeOut },
-        1
-      )
+    tl.from([headlineFirst, headlineSecond, headlineThird],
+      { opacity: 0, duration: 1, y: 22, ease: Power3.easeOut, stagger: 0.2 },1)
+      .from( button, { opacity: 0, duration: 0.8, y: 22, ease: Power3.easeOut },1)
       .from(
         social.children,
         {

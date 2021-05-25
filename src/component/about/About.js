@@ -10,33 +10,30 @@ const About = () => {
         <span className="section-subtitle">My history</span>
         <h2 className="section-title">About me</h2>
         <div className="about__container bd-grid">
-        <img src={imgAbout} alt="" className="about__img" />
+          <img src={imgAbout} alt="" className="about__img" />
           <div className="about__data bd-grid">
             <p className="about__description">
               <span>
                 Hello, My name is Sattha (Pack)
                 <br />
               </span>
-                I graduated in electrical engineering and worked in
-                engineer position for 3 years. I currently need to change my
-                career to developer and I learn about programming by online
-                learning. I am interested in applying for web developer and I
-                will do my best. I developed my website by react  and
-                firebase.
-                <br />
-                Although I have less experience in web developer, but I have an
-                experience in other developing engineering programs. I have a
-                good problem-solving skill in term of programming, which enables
-                me to develop and improve website.
+              I graduated in electrical engineering and worked in engineer
+              position for 3 years. I currently need to change my career to
+              developer and I learn about programming by online learning. I am
+              interested in applying for web developer and I will do my best. I
+              developed my website by react and firebase.
+              <br />
+              Although I have less experience in web developer, but I have an
+              experience in other developing engineering programs. I have a good
+              problem-solving skill in term of programming, which enables me to
+              develop and improve website.
             </p>
           </div>
         </div>
 
-        
         <span className="section-subtitle">Experience and Education</span>
         <h2 className="section-title">Qualification</h2>
         <div className="qualification__container bd-grid">
-
           <div className="qualification__content">
             <h2 className="qualification__title">
               <i className="bx bx-bookmark qualification__title-icon "></i>
@@ -120,29 +117,25 @@ const About = () => {
             />
           </div>
         </div>
-    
 
-    
         <span className="section-subtitle">What i offer</span>
         <h2 className="section-title">Skills</h2>
         <div className="services__container bd-grid">
-
           <div className="services__data">
             <i className="bx bx-laptop services__icon"></i>
             <h3 className="services__title">Web development</h3>
             <p className="services__description">
-             Basic web development , Html Css Javascript
+              web development , Html Css Javascript
             </p>
-          
           </div>
 
           <div className="services__data">
             <i className="bx bxl-react services__icon"></i>
             <h3 className="services__title">React</h3>
             <p className="services__description">
-             Working with state and component,React Hook ,Redux ,React Route
+              Working with state and component,React Hook ,Redux , Redux-thunk
+              ,React Route
             </p>
-          
           </div>
 
           <div className="services__data">
@@ -151,13 +144,9 @@ const About = () => {
             <p className="services__description">
               Git , Firebase , Axios , Firebase ,Adobe Photoshop
             </p>
-           
           </div>
         </div>
-  
       </section>
-
-      
     </>
   );
 };

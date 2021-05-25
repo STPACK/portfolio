@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 /*===== VARIABLES CSS =====*/
-:root{
+:root {
   --header-height: 3rem;
 
   /*===== Colors =====*/
@@ -10,18 +10,18 @@
   --text-color: #0e132f;
   --first-color-light: #5d737e;
   --first-color-lighten: #eff1f3;
-  --second-color:#dc9518;
-  --second-color-light:#F9E7C8;
+  --second-color: #dc9518;
+  --second-color-light: #f9e7c8;
 
   /*===== Font and typography =====*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: "Poppins", sans-serif;
   --biggest-font-size: 2.5rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
 
   /*===== Font weight =====*/
   --font-medium: 500;
@@ -29,7 +29,7 @@
   --font-bold: 700;
 
   /*===== Margenes =====*/
-  --mb-1: .5rem;
+  --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
   --mb-4: 2rem;
@@ -41,29 +41,31 @@
   --z-tooltip: 10;
   --z-fixed: 100;
 }
-  
-@media screen and (min-width: 768px){
-  :root{
+
+@media screen and (min-width: 768px) {
+  :root {
     --biggest-font-size: 4.5rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
   }
 }
 
 /*===== BASE =====*/
-*,::before,::after{
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -73,85 +75,87 @@ body{
   line-height: 1.6;
 }
 
-h1,h2,h3,ul,p{
+h1,
+h2,
+h3,
+ul,
+p {
   margin: 0;
 }
 
-h2,h3{
+h2,
+h3 {
   font-weight: var(--font-semi-bold);
 }
 
-ul{
+ul {
   padding: 0;
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-.bd-container{
+.bd-container {
   max-width: 1024px;
   width: calc(100% - 2rem);
   margin: 0 var(--mb-2);
 }
 
-.bd-grid{
-display: grid;
-gap: 1.5rem;
+.bd-grid {
+  display: grid;
+  gap: 1.5rem;
 }
 
-.button{
+.button {
   display: inline-block;
   background-color: var(--first-color);
   color: var(--first-color-lighten);
-  padding: .75rem 1rem;
-  border-radius: .25rem;
-  transition: .3s;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  transition: 0.3s;
 }
 
-.section{
-    padding: 4rem 0 3rem;
+.section {
+  padding: 4rem 0 3rem;
 }
 
-.section-title,.section-subtitle{
-    text-align: center;
+.section-title,
+.section-subtitle {
+  text-align: center;
 }
-.section-title{
-    font-size: var(--h1-font-size);
-    color: var(--first-color);
-    margin-bottom: var(--mb-3);
+.section-title {
+  font-size: var(--h1-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-3);
 }
-.section-subtitle{
-    display: block;
-    font-size: var(--smaller-font-size);
-    font-weight: var(--font-semi-bold);
+.section-subtitle {
+  display: block;
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-semi-bold);
 }
 
-@media (min-width:768px) {
-  body{
+@media (min-width: 768px) {
+  body {
     margin: 0;
   }
-  .section{
+  .section {
     padding-top: 6rem;
   }
-  .section-title{
+  .section-title {
     margin-bottom: var(--mb-5);
   }
 }
 
-
-
-@media (min-width:1024px) {
- .bd-container{
-   margin: 0 auto;
- }
+@media (min-width: 1024px) {
+  .bd-container {
+    margin: 0 auto;
+  }
 }
-
-
