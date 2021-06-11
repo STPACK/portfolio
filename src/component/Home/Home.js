@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { TimelineLite, Power3,gsap  } from "gsap";
 import { CSSPlugin } from 'gsap/CSSPlugin'
 import ImgHome from "../../assets/img/home4.jpg";
-import cv from "../../assets/pdf/Clay-Doe-Cv.pdf";
+import cv from "../../assets/pdf/Sattha_CV.pdf";
 import "./home.css";
 
 const Home = () => {
